@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Roboto", serif;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../Images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main>nav {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+}
+
+
+nav>.nav-part1 {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+
+.nav-part1 h2 {
+    font-size: 1.8rem;
+}
+
+nav>.nav-part2 {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nav-part2 ol {
+    display: flex;
+    gap: 27px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+.nav-part2 ol li {
+    display: inline;
+}
+
+
+
+.nav-part2 ol li i {
+    margin-left: 8px;
+}
+
+.nav-part2 ol li a {
+    text-decoration: none;
+}
+
+
+
+nav>.nav-part3 {
+    width: 30%;
+    height: 100%;
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav-part3 i {
+    font-size: 1.5rem;
+}
+
+.nav-part3 p {
+    font-weight: 800;
+}
+
+.nav-part3 .icon_container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 33px;
+    justify-content: start;
+    gap: 15px;
+
+}
+
+#page1 {
+    width: 100%;
+    height: 90%;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page1 .page1_Container {
+    width: 85%;
+    height: 70%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.page1_Container h4 {
+    font-size: 1.2rem;
+}
+
+.page1_Container h2 {
+    font-size: 4rem;
+}
+
+
+.page1_Container p {
+    font-size: 1.2rem;
+}
+
+.page1_Container button {
+    width: 120px;
+    padding: 8px 8px;
+    height: 45px;
+
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 9px;
+    background-color: #23A6F0;
+}
